@@ -21,8 +21,8 @@ def key_for_min_value(name_hash)
       swapped = false
       (array2.length).times { |index|
         if array2[index] > array2[index+1]
-          array2[i], array2[i+1] = array2[i+1], array2[i]
-          array1[i], array1[i+1] = array1[i+1], array1[i]
+          array2[index], array2[index+1] = array2[index+1], array2[index]
+          array1[index], array1[index+1] = array1[index+1], array1[index]
           swapped = true
         end
       }
