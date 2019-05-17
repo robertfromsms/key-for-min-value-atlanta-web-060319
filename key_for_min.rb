@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     return nil
   end
   value_array = []
-  name_array = [] 
+  name_array = []
   name_hash.each {|name, value|
     value_array.push(value)
     name_array.push(name)
