@@ -35,4 +35,5 @@ def key_for_min_value(name_hash)
     return
   else
     return my_sort_mirroring(name_array, value_array)[0]
+  end
 end
