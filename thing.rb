@@ -10,6 +10,7 @@ def my_sort(array1)
     end
     i += 1
   end
+  return array1
 end
 
 my_sort([9,8,7,6,5,4,3])
