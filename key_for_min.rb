@@ -34,5 +34,5 @@ def key_for_min_value(name_hash)
     puts "something wrong happened"
     return
   else
-    my_sort_mirroring(name_array, value_array)[0]
+    return my_sort_mirroring(name_array, value_array)[0]
 end
