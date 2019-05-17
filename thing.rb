@@ -5,7 +5,6 @@ def my_sort(array1)
     while j < array1.length
       puts i
       puts j
-      end
       j += 1
     end
     i += 1
