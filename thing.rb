@@ -3,15 +3,15 @@ def my_sort(array1)
   while i < array1.length
     j = 0
     while j < array1.length
-      puts i
-      puts j
+      puts array1[i] > array1[j]
       j += 1
     end
     i += 1
   end
 end
 
-my_sort([9,8,7,6,5,4,3])
+my_sort([9,8,7])
 
 #if array1[i] > array1[j]
 #  array1[i], array1[j] = array1[j], array1[i]
+#end
