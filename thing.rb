@@ -3,7 +3,7 @@ def my_sort(array1)
   while i < array1.length
     j = 0
     while j < array1.length
-      if array2[i] > array2[j]
+      if array1[i] > array1[j]
         array1[i], array1[j] = array1[j], array1[i]
       end
       j += 1
