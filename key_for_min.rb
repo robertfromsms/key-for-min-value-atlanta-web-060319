@@ -19,7 +19,7 @@ def key_for_min_value(name_hash)
     end
     loop {
       swapped = false
-      (array2.length).times { |index|
+      (array2.length - 1).times { |index|
         if array2[index] > array2[index+1]
           array2[index], array2[index+1] = array2[index+1], array2[index]
           array1[index], array1[index+1] = array1[index+1], array1[index]
